@@ -1,0 +1,1 @@
+<?php // index.php controllerinclude_once('startup.php');include_once('model.php');// Установка параметров, подключение к БД, запуск сессии.startup();// Извлечение статей из бд$articles = articles_all();// Кодировкаheader('Content-type: text/html; charset=utf-8');//header('Location: theme/v_index.php');// Вывод шаблонаinclude('./theme/v_index.php');

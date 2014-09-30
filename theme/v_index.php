@@ -7,8 +7,8 @@
 	<link rel="stylesheet" type="text/css" src="./style.css">
 </head>
 <body>
-<a href="../index.php">Главная</a>&nbsp;
-<a href="../editor.php">Консоль редактора</a>
+<a href="../blog1/index.php">Главная</a>&nbsp;
+<a href="../blog1/editor.php">Консоль редактора</a>
 <hr>
 	<ul>
 		<? foreach ($articles as $a): ?>

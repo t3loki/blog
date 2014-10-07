@@ -12,7 +12,7 @@ startup();
 $article = article_get($_GET['id']);
 
 // Кодировка
-header('Content-type: text/html; charset=utf-8');
+//header('Content-type: text/html; charset=utf-8');
 
 // Вывод шаблона
 include('./theme/v_article.php');

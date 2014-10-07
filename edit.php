@@ -1,1 +1,1 @@
-Сделать!
+<?phpinclude_once('startup.php');include_once('model.php');// Установка параметров, подключение к БД, запуск сессии.startup();$a = article_get($_GET['id']);//article_edit($article_id, $title, $content);// Кодировка.header('Content-type: text/html; charset=utf-8');// Вывод шаблона.include('./theme/v_edit.php');

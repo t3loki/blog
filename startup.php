@@ -17,5 +17,7 @@ function startup() {
 	mysql_select_db($dbName) or die('No data base');
 
 	// Открытие сессии.
-	session_start();
+	if (!isset($_SESSION)) {	
+		session_start();
+	}
 }

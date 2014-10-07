@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" src="./style.css">
 </head>
 <body>
+<h1>Главная</h1>
 <a href="../blog1/index.php">Главная</a>&nbsp;
 <a href="../blog1/editor.php">Консоль редактора</a>
 <hr>
@@ -16,12 +17,7 @@
 				<a href="./article.php?id=<?=$a['article_id']?>">
 					<h3><?=$a['title']?></h3>
 				</a>
-
-				<p><?=$a['content']?></p>
-
-			    <!-- articles teasers without readmore -->
-				<!-- <a href="<?=$a['content']?>">read more</a> -->
-					
+				<p><?=$a['content']?></p>	
 			</li>
 		<? endforeach; ?>
 	

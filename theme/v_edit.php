@@ -14,7 +14,7 @@
 	<hr/>
 	
 	<? if($error) :?>
-		<b style="color: red;">Fill in all the fields!</b>
+		<b class="error">Fill in all the fields!</b>
 	<? endif ?>  
 
 	<form method="post">

@@ -7,6 +7,8 @@
       ?>
     </title>
 	<meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<link rel="stylesheet" type="text/css" media="screen" href="theme/style.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/../dist/css/global.css" />
 </head>
 <body>
 <a href="../blog1/index.php">Home</a>&nbsp;

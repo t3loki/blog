@@ -9,8 +9,8 @@
 </head>
 <body>
 
-<div id="head-wrap">
-	<div id="header">
+<div id="menu-wrapper">
+	<div class="menu">
 		<h1>Home</h1>
 		<a href="../blog1/index.php">Home</a>&nbsp;|
 		<a href="../blog1/editor.php">Editor</a>
@@ -30,6 +30,6 @@
 			</div>
 		<? endforeach; ?>
 	
-	
+<div class="copyright"><small>D. Jouravlev <?=date('Y');?></small></div>
 </body>
 </html>

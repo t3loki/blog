@@ -9,8 +9,8 @@
 	<meta content="text/html; charset=utf-8" http-equiv="content-type">
 </head>
 <body>
-<a href="../blog1/index.php">Главная</a>&nbsp;
-<a href="../blog1/editor.php">Консоль редактора</a>
+<a href="../blog1/index.php">Home</a>&nbsp;
+<a href="../blog1/editor.php">Editor</a>
 <hr>
 	<!-- <?php var_dump($article[1], $article[2]); ?> -->
 
